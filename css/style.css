@@ -1,0 +1,129 @@
+body {
+  font-family: roboto, lato;
+}
+.box-title{
+    margin: auto;
+    text-align: center;
+    font-size: 60px;
+    padding: 30px;
+}
+#title-p{
+    font-size: 30px;
+    font-family: roboto;
+    color: #464646;
+}
+p{
+    font-size: 18px;
+    font-family: roboto;
+    color: #5E5E5E;
+}
+.box-login{
+    width: 320px;
+    height: 320px;
+    margin: auto;
+    text-align: center;
+    background-color: #EFEFEF;
+}
+#user-log{
+    margin: auto;
+    text-align: center;
+    font-size: 80px;
+    padding: 30px;
+    opacity:0.2;
+}
+.email{
+  width: 80%;
+  padding: 10px 20px;
+  margin: 7px 0;
+  background-color: #FFF5B6;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.button{
+  width: 80%;
+  padding: 10px 20px;
+  margin: 7px 0;
+  background-color: #4285F4;
+  color: white;
+  border-radius: 4px;
+}
+.help{
+  color: #4285F4;
+  text-decoration: none;
+  margin-left: 50%;
+  font-family: roboto;
+  font-size: 13px;
+}
+.box-acc{
+   margin: auto;
+  text-align: center;
+}
+.create{
+  color: #4285F4;
+  text-decoration: none;
+  font-family: roboto;
+  font-size: 15px;
+}
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline;
+}
+
+li a {
+  display: inline;
+  padding: 6px;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+.box-footer{
+  text-align: left;
+  margin-left: 30px;
+  font-family: roboto;
+  font-size: 13px;
+}
+
+#lang{
+  text-align: right;
+  float: right;
+  font-size: 14px;
+  padding-right: 10px;
+}
+.dropup {
+  float: right;
+  position: relative;
+  display: inline-block;
+  padding-right: 30px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+}
+.dropbtn {
+  background-color: white;
+  color: black;
+  padding: 6px 25px;
+  font-size: 12px;
+  border: none;
+}
+.dropup-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  bottom: 50px;
+  z-index: 1;
+}
+
+.dropup-content a {
+  color: black;
+  padding: 6px 25px;
+  text-decoration: none;
+  display: block;
+}
+
